@@ -1,0 +1,25 @@
+{
+  "name": "@oceansoft/strapi-template-blog",
+  "version": "1.0.0",
+  "description": "Template for creating blog apps, such as Education, Agency, Beauty, Medical, News, Personal, and Science using Strapi V4.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://nnthanh101@github.com/OceanSoftIO/strapi-template-blog.git"
+  },
+  "keywords": [
+    "strapi",
+    "template",
+    "blog",
+    "gatsby"
+  ],
+  "author": {
+    "name": "Thanh Nguyen",
+    "email": "nnthanh101@gmail.com",
+    "url": "https://blog.oceansoft.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OceanSoftIO/strapi-template-blog/issues"
+  },
+  "homepage": "https://github.com/OceanSoftIO/strapi-template-blog#readme"
+}
