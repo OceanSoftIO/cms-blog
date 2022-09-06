@@ -8,22 +8,25 @@
     "description": "Create your blog content"
   },
   "options": {
-    "draftAndPublish": true
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "description": {
-      "type": "text",
-      "maxLength": 80
+    "body": {
+      "type": "richtext",
+      "required": true
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
-    "cover": {
+    "thumbnail": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -32,6 +35,10 @@
         "files",
         "videos"
       ]
+    },
+    "date": {
+      "type": "datetime",
+      "required": true
     },
     "author": {
       "type": "relation",
@@ -45,14 +52,37 @@
       "target": "api::category.category",
       "inversedBy": "articles"
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.media",
-        "shared.quote",
-        "shared.rich-text",
-        "shared.slider"
-      ]
+    "featured": {
+      "type": "boolean"
+    },
+    "private": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.array"
+    },
+    "tags_array": {
+      "type": "array",
+      "configurable": false,
+      "visible": false
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.array"
+    },
+    "keywords_array": {
+      "type": "array",
+      "configurable": false,
+      "visible": false
+    },
+    "thumbnailText": {
+      "type": "string"
     }
   }
 }

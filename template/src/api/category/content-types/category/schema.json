@@ -8,15 +8,29 @@
     "description": "Organize your content into categories"
   },
   "options": {
+    "increments": true,
+    "timestamps": true,
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "targetField": "name"
+    },
+    "color": {
+      "type": "string",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
     },
     "articles": {
       "type": "relation",
@@ -25,7 +39,7 @@
       "mappedBy": "category"
     },
     "description": {
-      "type": "text"
+      "type": "string"
     }
   }
 }
