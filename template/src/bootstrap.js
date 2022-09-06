@@ -55,12 +55,13 @@ async function setInitFrontendAPIToken(attributes) {
   const apiToken = await apiTokenService.create(attributes);
   const accessKey = apiToken.accessKey;
   const credentialsLocation = "frontend.env.development"
+  const apiUrl = 'http://localhost:1337'
   // /** DEBUG */
   // console.log('[DEBUG] accessKey');
   // console.log(accessKey);
   // console.log('[DEBUG] credentialsLocation: ');
   // console.log(credentialsLocation);
-  fs.writeFile(credentialsLocation, + "STRAPI_API_URL=http://localhost:1337" + `\n` + `STRAPI_TOKEN=${accessKey}`, function (err) {
+  fs.writeFile(credentialsLocation, `STRAPI_API_URL=${apiUrl}\nSTRAPI_TOKEN=${accessKey}`, function (err) {
     if (err) return console.log(err);
     console.log('Frontend .env file updated.');
   });

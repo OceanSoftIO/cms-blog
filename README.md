@@ -30,8 +30,8 @@ yarn create strapi-app backend --template @oceansoft/strapi-template-blog
 
   ```
   echo "Move backend/frontend.env.development to frontend/.env"
-  mv ../backend/frontend.env.development ./.env
-  cat .env
+  mv ../backend/frontend.env.development .env
+  # cat frontend/.env
   ```
 
   > `frontend/.env`
