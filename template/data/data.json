@@ -4,12 +4,14 @@
       "name": "Cloud",
       "slug": "cloud",
       "description": "Cloud Zone.",
+      "color": "#ecc94b",
       "icon": null
     },
     {
-      "name": "DevSecOps",
-      "slug": "devsecops",
-      "description": "DevOps Zone.",
+      "name": "Data",
+      "slug": "data",
+      "description": "Data Zone.",
+      "color": "#4299e1",
       "icon": null
     }
   ],
@@ -56,7 +58,7 @@
           "value": "Cloud"
         },
         {
-          "value": "DevSecOps"
+          "value": "Data"
         }
       ]
     }
