@@ -3,16 +3,16 @@
     {
       "name": "Cloud",
       "slug": "cloud",
-      "description": "Cloud Zone.",
       "color": "#ecc94b",
-      "icon": null
+      "icon": "cloud.svg",
+      "description": "Cloud Zone."
     },
     {
       "name": "Data",
       "slug": "data",
-      "description": "Data Zone.",
       "color": "#4299e1",
-      "icon": null
+      "icon": "data.svg",
+      "description": "Data Zone."
     }
   ],
   "authors": [
@@ -20,8 +20,8 @@
       "name": "Software Engineer",
       "slug": "software-engineer",
       "title": "Software Engineer",
-      "description": "Senior Software Engineer at OceanSoft Company.",
-      "thumbnail": null,
+      "description": "Designs, develops, modifies, documents, tests, implements, installs and supports software applications and systems.",
+      "thumbnail": "software-engineer",
       "social": [
         {
           "value": "https://instagram.com/software-engineer"
@@ -43,8 +43,8 @@
       "name": "Software Architect",
       "slug": "software-architect",
       "title": "Software Architect",
-      "description": "Passionate Freelance Software Architect located in Aucland, NZ.",
-      "thumbnail": null,
+      "description": "Interprets specifications, technical designs and flow charts, builds, maintains and modifies the code for software applications, constructs technical specifications from a business functional model, and tests and writes technical documentation.",
+      "thumbnail": "software-engineer.png",
       "social": [
         {
           "value": "https://instagram.com/software-architect"
@@ -65,118 +65,62 @@
   ],
   "articles": [
     {
-      "title": "Sample Article Integration of Gatsby and Strapi",
-      "slug": "sample-article-integration-of-gatsby-and-strapi",
-      "body": "# The Story of Aaron Swartz\n\nAaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist. He was involved in the development of the web feed format RSS, the Markdown publishing format, the organization Creative Commons, and the website framework web.py, and was a co-founder of the social news site [Reddit](https://reddit.com). He was given the title of co-founder of Reddit by Y Combinator owner [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer)) after the formation of Not a Bug, Inc. (a merger of Swartz's project Infogami and Redbrick Solutions, a company run by Alexis Ohanian and Steve Huffman).\n\nSwartz's work also focused on civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010, he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig. He founded the online group Demand Progress, known for its campaign against the Stop Online Piracy Act.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PFQGjEJ9PEc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\nIn 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, and setting it to download academic journal articles systematically from JSTOR using a guest user account issued to him by MIT. Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act,[14] carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.\n\nSwartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he had hanged himself.\n\nIn 2013, Swartz was inducted posthumously into the [Internet Hall of Fame](https://www.internethalloffame.org//).",
-      "date": "2021-12-16T10:00:00.000Z",
+      "title": "Dockerizing a MEAN-Stack Application",
+      "slug": "dockerizing-a-mean-stack-application",
+      "thumbnailText": "Migration Hands-on Workshop 4",
+      "body": "🎯 An open-source NodeJS-based application-migration with a fully customizable API for managing content. By building production-ready Node.js APIs in hours rather than weeks, you can save time and effort.",
+      "date": "2022-09-05T17:00:00.000Z",
+      "thumbnail": "dockerizing-a-mean-stack-application",
+      "category": {
+        "id": 1
+      },
+      "author": {
+        "id": 1
+      },
+      "tags": [
+        {
+          "value": "#application-migration"
+        },
+        {
+          "value": "#container"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Docker"
+        },
+        {
+          "value": "MEAN"
+        }
+      ]
+    },
+    {
+      "title": "Data Analytics and Visualization Serverless Data Lake",
+      "slug": "data-analytics-and-visualization-serverless-data-lake",
+      "thumbnailText": "Data Analytics Workshop 3",
+      "body": "Building a secure analytics platform for financial data",
+      "date": "2022-09-05T17:00:00.000Z",
+      "thumbnail": "data-analytics-and-visualization-serverless-data-lake",
       "category": {
         "id": 2
       },
       "author": {
         "id": 1
       },
-      "thumbnail": null,
       "tags": [
         {
-          "value": "#love"
+          "value": "#data-analytics"
         },
         {
-          "value": "#coolstrapi"
+          "value": "#serverless"
         }
       ],
       "keywords": [
         {
-          "value": "sample seo keyword"
+          "value": "Data Analytics"
         },
         {
-          "value": "another seo keyword"
-        }
-      ]
-    },
-    {
-      "title": "Cloud Article Integration of Gatsby and Strapi",
-      "slug": "cloud-article-integration-of-gatsby-and-strapi",
-      "body": "# The Story of Aaron Swartz\n\nAaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist. He was involved in the development of the web feed format RSS, the Markdown publishing format, the organization Creative Commons, and the website framework web.py, and was a co-founder of the social news site [Reddit](https://reddit.com). He was given the title of co-founder of Reddit by Y Combinator owner [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer)) after the formation of Not a Bug, Inc. (a merger of Swartz's project Infogami and Redbrick Solutions, a company run by Alexis Ohanian and Steve Huffman).\n\nSwartz's work also focused on civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010, he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig. He founded the online group Demand Progress, known for its campaign against the Stop Online Piracy Act.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PFQGjEJ9PEc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\nIn 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, and setting it to download academic journal articles systematically from JSTOR using a guest user account issued to him by MIT. Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act,[14] carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.\n\nSwartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he had hanged himself.\n\nIn 2013, Swartz was inducted posthumously into the [Internet Hall of Fame](https://www.internethalloffame.org//).",
-      "date": "2021-12-22T10:00:00.000Z",
-      "category": {
-        "id": 1
-      },
-      "author": {
-        "id": 2
-      },
-      "thumbnail": null,
-      "tags": [
-        {
-          "value": "#love"
-        },
-        {
-          "value": "#cloud"
-        }
-      ],
-      "keywords": [
-        {
-          "value": "sample seo keyword"
-        },
-        {
-          "value": "another seo keyword"
-        }
-      ]
-    },
-    {
-      "title": "Another Cool Sample Article for Strapi",
-      "slug": "another-cool-sample-article-for-strapi",
-      "body": "# The Story of Aaron Swartz\n\nAaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist. He was involved in the development of the web feed format RSS, the Markdown publishing format, the organization Creative Commons, and the website framework web.py, and was a co-founder of the social news site [Reddit](https://reddit.com). He was given the title of co-founder of Reddit by Y Combinator owner [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer)) after the formation of Not a Bug, Inc. (a merger of Swartz's project Infogami and Redbrick Solutions, a company run by Alexis Ohanian and Steve Huffman).\n\nSwartz's work also focused on civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010, he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig. He founded the online group Demand Progress, known for its campaign against the Stop Online Piracy Act.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PFQGjEJ9PEc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\nIn 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, and setting it to download academic journal articles systematically from JSTOR using a guest user account issued to him by MIT. Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act,[14] carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.\n\nSwartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he had hanged himself.\n\nIn 2013, Swartz was inducted posthumously into the [Internet Hall of Fame](https://www.internethalloffame.org//).",
-      "date": "2021-12-15T10:00:00.000Z",
-      "category": {
-        "id": 2
-      },
-      "author": {
-        "id": 2
-      },
-      "thumbnail": null,
-      "tags": [
-        {
-          "value": "#cloud"
-        },
-        {
-          "value": "#love"
-        }
-      ],
-      "keywords": [
-        {
-          "value": "sample seo keyword"
-        },
-        {
-          "value": "another seo keyword"
-        }
-      ]
-    },
-    {
-      "title": "Third Sample Article for GatsbyJS Theme",
-      "slug": "third-sample-article-for-gatsbyjs-theme",
-      "body": "# The Story of Aaron Swartz\n\nAaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist. He was involved in the development of the web feed format RSS, the Markdown publishing format, the organization Creative Commons, and the website framework web.py, and was a co-founder of the social news site [Reddit](https://reddit.com). He was given the title of co-founder of Reddit by Y Combinator owner [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer)) after the formation of Not a Bug, Inc. (a merger of Swartz's project Infogami and Redbrick Solutions, a company run by Alexis Ohanian and Steve Huffman).\n\nSwartz's work also focused on civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010, he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig. He founded the online group Demand Progress, known for its campaign against the Stop Online Piracy Act.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PFQGjEJ9PEc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\nIn 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, and setting it to download academic journal articles systematically from JSTOR using a guest user account issued to him by MIT. Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act,[14] carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.\n\nSwartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he had hanged himself.\n\nIn 2013, Swartz was inducted posthumously into the [Internet Hall of Fame](https://www.internethalloffame.org//).",
-      "date": "2021-12-14T10:00:00.000Z",
-      "category": {
-        "id": 2
-      },
-      "author": {
-        "id": 1
-      },
-      "thumbnail": null,
-      "tags": [
-        {
-          "value": "#ilovedevops"
-        },
-        {
-          "value": "#coolstrapi"
-        }
-      ],
-      "keywords": [
-        {
-          "value": "sample seo keyword"
-        },
-        {
-          "value": "another seo keyword"
+          "value": "Data Lake"
         }
       ]
     }

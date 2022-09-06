@@ -18,10 +18,6 @@
       "type": "string",
       "required": true
     },
-    "body": {
-      "type": "richtext",
-      "required": true
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
@@ -36,20 +32,27 @@
         "videos"
       ]
     },
+    "thumbnailText": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
     "date": {
       "type": "datetime",
       "required": true
-    },
-    "author": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::author.author",
-      "inversedBy": "articles"
     },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
+      "inversedBy": "articles"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
       "inversedBy": "articles"
     },
     "featured": {
@@ -80,9 +83,6 @@
       "type": "array",
       "configurable": false,
       "visible": false
-    },
-    "thumbnailText": {
-      "type": "string"
     }
   }
 }

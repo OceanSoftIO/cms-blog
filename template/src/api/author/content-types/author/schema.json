@@ -32,10 +32,10 @@
         "videos"
       ]
     },
-    "description": {
+    "title": {
       "type": "string"
     },
-    "title": {
+    "description": {
       "type": "string"
     },
     "social": {
