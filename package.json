@@ -1,15 +1,16 @@
 {
   "name": "@oceansoft/strapi-template-blog",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Template for creating blog apps, such as Education, Agency, Beauty, Medical, News, Personal, and Science using Strapi V4.",
   "repository": {
     "type": "git",
     "url": "git+https://nnthanh101@github.com/OceanSoftIO/strapi-template-blog.git"
   },
   "keywords": [
-    "strapi",
+    "cms",
     "template",
     "blog",
+    "strapi",
     "gatsby"
   ],
   "author": {
