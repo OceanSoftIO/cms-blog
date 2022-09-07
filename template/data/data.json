@@ -4,15 +4,15 @@
       "name": "Cloud",
       "slug": "cloud",
       "color": "#ecc94b",
-      "icon": "cloud.svg",
-      "description": "Cloud Zone."
+      "description": "Cloud Zone.",
+      "icon": null
     },
     {
-      "name": "Data",
-      "slug": "data",
+      "name": "Data Analytics",
+      "slug": "data-analytics",
       "color": "#4299e1",
-      "icon": "data.svg",
-      "description": "Data Zone."
+      "description": "Data Zone.",
+      "icon": null
     }
   ],
   "authors": [
@@ -21,7 +21,7 @@
       "slug": "software-engineer",
       "title": "Software Engineer",
       "description": "Designs, develops, modifies, documents, tests, implements, installs and supports software applications and systems.",
-      "thumbnail": "software-engineer",
+      "thumbnail": null,
       "social": [
         {
           "value": "https://instagram.com/software-engineer"
@@ -44,7 +44,7 @@
       "slug": "software-architect",
       "title": "Software Architect",
       "description": "Interprets specifications, technical designs and flow charts, builds, maintains and modifies the code for software applications, constructs technical specifications from a business functional model, and tests and writes technical documentation.",
-      "thumbnail": "software-engineer.png",
+      "thumbnail": null,
       "social": [
         {
           "value": "https://instagram.com/software-architect"
@@ -55,72 +55,128 @@
       ],
       "skills": [
         {
-          "value": "Cloud"
+          "value": "SDLC"
         },
         {
-          "value": "Data"
+          "value": "Data Analytics"
         }
       ]
     }
   ],
   "articles": [
     {
-      "title": "Dockerizing a MEAN-Stack Application",
-      "slug": "dockerizing-a-mean-stack-application",
-      "thumbnailText": "Migration Hands-on Workshop 4",
-      "body": "🎯 An open-source NodeJS-based application-migration with a fully customizable API for managing content. By building production-ready Node.js APIs in hours rather than weeks, you can save time and effort.",
-      "date": "2022-09-05T17:00:00.000Z",
-      "thumbnail": "dockerizing-a-mean-stack-application",
-      "category": {
-        "id": 1
-      },
-      "author": {
-        "id": 1
-      },
-      "tags": [
-        {
-          "value": "#application-migration"
-        },
-        {
-          "value": "#container"
-        }
-      ],
-      "keywords": [
-        {
-          "value": "Docker"
-        },
-        {
-          "value": "MEAN"
-        }
-      ]
-    },
-    {
-      "title": "Data Analytics and Visualization Serverless Data Lake",
-      "slug": "data-analytics-and-visualization-serverless-data-lake",
-      "thumbnailText": "Data Analytics Workshop 3",
-      "body": "Building a secure analytics platform for financial data",
-      "date": "2022-09-05T17:00:00.000Z",
-      "thumbnail": "data-analytics-and-visualization-serverless-data-lake",
+      "title": "End-to-End EKS Blueprint for HashiCorp's Terraform",
+      "slug": "end-to-end-eks-blueprint-for-terraform",
+      "body": "[Live Demo] End-to-End Production-Grade Amazon EKS Blueprint for Terraform in 1 hour 🎯🚀 \n E301 🦾🎯🌥 provides a great customer experience: access to any feature in 3 seconds; Zero downtime; and deployment of code changes within 1 hour 😍 \n 🐬 Customers can use the Amazon EKS Shared Services Platform (SSP) for Terraform to easily architect and deploy a multi-tenant SSP built on EKS that aims to accelerate the delivery of a batteries-included, multi-tenant container platform on top of Amazon EKS according to AWS best practices and recommendations.",
+      "date": "2022-09-16T10:00:00.000Z",
       "category": {
         "id": 2
       },
       "author": {
         "id": 1
       },
+      "thumbnail": null,
+      "tags": [
+        {
+          "value": "#eks"
+        },
+        {
+          "value": "#terraform"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "EKS Blueprint"
+        },
+        {
+          "value": "Terraform"
+        }
+      ]
+    },
+    {
+      "title": "Accelerating your journey to Data-Driven Organization",
+      "slug": "accelerating-your-journey-to-data-driven-organization",
+      "body": "# The Story of Aaron Swartz\n\nAaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist. He was involved in the development of the web feed format RSS, the Markdown publishing format, the organization Creative Commons, and the website framework web.py, and was a co-founder of the social news site [Reddit](https://reddit.com). He was given the title of co-founder of Reddit by Y Combinator owner [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer)) after the formation of Not a Bug, Inc. (a merger of Swartz's project Infogami and Redbrick Solutions, a company run by Alexis Ohanian and Steve Huffman).\n\nSwartz's work also focused on civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010, he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig. He founded the online group Demand Progress, known for its campaign against the Stop Online Piracy Act.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PFQGjEJ9PEc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\nIn 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, and setting it to download academic journal articles systematically from JSTOR using a guest user account issued to him by MIT. Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act,[14] carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.\n\nSwartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he had hanged himself.\n\nIn 2013, Swartz was inducted posthumously into the [Internet Hall of Fame](https://www.internethalloffame.org//).",
+      "date": "2022-09-22T10:00:00.000Z",
+      "category": {
+        "id": 1
+      },
+      "author": {
+        "id": 2
+      },
+      "thumbnail": null,
       "tags": [
         {
           "value": "#data-analytics"
         },
         {
-          "value": "#serverless"
+          "value": "#cloud"
         }
       ],
       "keywords": [
         {
-          "value": "Data Analytics"
+          "value": "Data Driven"
         },
         {
-          "value": "Data Lake"
+          "value": "Data Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Data Marketplace",
+      "slug": "data-marketplace",
+      "body": "A modern data marketplace that makes collaboration among diverse users (like business, analysts and engineers) easier, increasing efficiency and agility in data projects on AWS.",
+      "date": "2022-09-15T10:00:00.000Z",
+      "category": {
+        "id": 2
+      },
+      "author": {
+        "id": 2
+      },
+      "thumbnail": null,
+      "tags": [
+        {
+          "value": "#data-analytics"
+        },
+        {
+          "value": "#solution"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Data Hub"
+        },
+        {
+          "value": "Data Marketplace"
+        }
+      ]
+    },
+    {
+      "title": "Performance Dashboard",
+      "slug": "performance-dashboard",
+      "body": "A simple cost-effective web application to build and publish KPI Dashboards.",
+      "date": "2022-09-14T10:00:00.000Z",
+      "category": {
+        "id": 2
+      },
+      "author": {
+        "id": 1
+      },
+      "thumbnail": null,
+      "tags": [
+        {
+          "value": "#data-analytics"
+        },
+        {
+          "value": "#solution"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Performance Dashboard"
+        },
+        {
+          "value": "Serverless"
         }
       ]
     }

@@ -12,7 +12,6 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
   "attributes": {
     "title": {
       "type": "string",
@@ -22,26 +21,15 @@
       "type": "uid",
       "targetField": "title"
     },
-    "thumbnail": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "thumbnailText": {
-      "type": "string"
-    },
-    "body": {
-      "type": "richtext",
-      "required": true
-    },
     "date": {
       "type": "datetime",
       "required": true
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "articles"
     },
     "category": {
       "type": "relation",
@@ -49,11 +37,15 @@
       "target": "api::category.category",
       "inversedBy": "articles"
     },
-    "author": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::author.author",
-      "inversedBy": "articles"
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
     },
     "featured": {
       "type": "boolean"
@@ -83,6 +75,9 @@
       "type": "array",
       "configurable": false,
       "visible": false
+    },
+    "thumbnailText": {
+      "type": "string"
     }
   }
 }

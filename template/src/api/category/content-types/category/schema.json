@@ -12,7 +12,6 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
@@ -21,6 +20,9 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "description": {
+      "type": "string"
     },
     "color": {
       "type": "string",
@@ -37,9 +39,6 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "category"
-    },
-    "description": {
-      "type": "string"
     }
   }
 }

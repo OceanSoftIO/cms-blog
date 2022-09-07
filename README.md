@@ -9,7 +9,9 @@
 ### Step 1: Install Strapi Backend
 
 ```
-yarn create strapi-app backend --template @oceansoft/strapi-template-blog
+yarn create strapi-app backend --quickstart --template @oceansoft/strapi-template-blog
+
+# yarn create strapi-app backend --template @oceansoft/strapi-template-blog
 ```
 
 * ✅ When the installation is complete, Strapi's administration panel will open in your browser, and you can register a user and get started creating content.

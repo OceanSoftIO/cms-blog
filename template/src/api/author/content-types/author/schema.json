@@ -12,7 +12,6 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
@@ -26,16 +25,12 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "title": {
-      "type": "string"
+      "allowedTypes": ["images"]
     },
     "description": {
+      "type": "string"
+    },
+    "title": {
       "type": "string"
     },
     "social": {
