@@ -4,7 +4,10 @@
 
 🎯 Strapi-V4 Headless-CMS Template for creating Blog CMS Backend, such as Education, Agency, Beauty, Medical, News, Personal, and Science 🎁💲.
 
-## Usage
+🐳 https://academy.job4u.io/dockerizing-strapi-open-source-nodejs-headless-cms/
+
+
+## ✨ Usage
 
 ### Step 1: Install Strapi Backend
 
@@ -95,8 +98,12 @@ If you’re planning to deploy your site to AWS, Netlify or Vercel, you can auto
 > [🎁 Installation Service 💲](https://github.com/OceanSoftIO/cms/tree/main/templates/blog)
 
 ```
-cd cms/templates/blog
-yarn strapi templates:generate ../../../Academy4U/strapi-blog
-
+git clone https://github.com/Academy4U/strapi-blog
+cd strapi-blog
 npm publish --access public
+
+echo "Generating the strapi-blog template ..."
+cd cms/templates/blog
+yarn install
+yarn strapi templates:generate ../../../../Academy4U/strapi-blog
 ```

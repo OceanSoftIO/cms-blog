@@ -11,7 +11,7 @@
       "name": "Data Analytics",
       "slug": "data-analytics",
       "color": "#4299e1",
-      "description": "Data Zone.",
+      "description": "Data Analytics Zone.",
       "icon": null
     }
   ],
@@ -65,7 +65,7 @@
   ],
   "articles": [
     {
-      "title": "End-to-End EKS Blueprint for HashiCorp's Terraform",
+      "title": "End-to-End EKS Blueprint for Terraform",
       "slug": "end-to-end-eks-blueprint-for-terraform",
       "body": "[Live Demo] End-to-End Production-Grade Amazon EKS Blueprint for Terraform in 1 hour 🎯🚀 \n E301 🦾🎯🌥 provides a great customer experience: access to any feature in 3 seconds; Zero downtime; and deployment of code changes within 1 hour 😍 \n 🐬 Customers can use the Amazon EKS Shared Services Platform (SSP) for Terraform to easily architect and deploy a multi-tenant SSP built on EKS that aims to accelerate the delivery of a batteries-included, multi-tenant container platform on top of Amazon EKS according to AWS best practices and recommendations.",
       "date": "2022-09-16T10:00:00.000Z",
@@ -125,7 +125,7 @@
     {
       "title": "Data Marketplace",
       "slug": "data-marketplace",
-      "body": "A modern data marketplace that makes collaboration among diverse users (like business, analysts and engineers) easier, increasing efficiency and agility in data projects on AWS.",
+      "body": "A modern data marketplace that makes collaboration among diverse users (like business, analysts, and engineers) easier, increasing efficiency and agility in data projects on AWS.",
       "date": "2022-09-15T10:00:00.000Z",
       "category": {
         "id": 2
@@ -137,6 +137,9 @@
       "tags": [
         {
           "value": "#data-analytics"
+        },
+        {
+          "value": "#datahub"
         },
         {
           "value": "#solution"
