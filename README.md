@@ -1,8 +1,8 @@
 # Strapi Template >> Blog
 
-⚡ Strapi is an open-source Node.js Headless CMS with a fully customizable API that lets you develop practical, production-ready Node.js APIs in hours instead of weeks.
+⚡ Strapi is an Open-Source NodeJS Headless CMS with a fully customizable API that lets you develop practical, production-ready Node.js APIs in hours instead of weeks.
 
-🎯 Strapi V4 Headless-CMS Template for creating Blog CMS Backend, such as Education, Agency, Beauty, Medical, News, Personal, and Science.
+🎯 Strapi-V4 Headless-CMS Template for creating Blog CMS Backend, such as Education, Agency, Beauty, Medical, News, Personal, and Science 🎁💲.
 
 ## Usage
 
@@ -91,3 +91,5 @@ If you’re planning to deploy your site to AWS, Netlify or Vercel, you can auto
 
 * [Webhooks explained and how to use them in Strapi](https://strapi.io/blog/webhooks)
 * [Triggering a deploy in Netlify automatically after updating content in Strapi](https://chriswray.dev/posts/triggering-a-deploy-in-netlify-automatically-after-updating-content-in-strapi)
+
+> [🎁 Installation Service 💲](https://github.com/OceanSoftIO/cms/tree/main/templates/blog)
