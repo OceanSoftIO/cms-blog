@@ -93,3 +93,10 @@ If you’re planning to deploy your site to AWS, Netlify or Vercel, you can auto
 * [Triggering a deploy in Netlify automatically after updating content in Strapi](https://chriswray.dev/posts/triggering-a-deploy-in-netlify-automatically-after-updating-content-in-strapi)
 
 > [🎁 Installation Service 💲](https://github.com/OceanSoftIO/cms/tree/main/templates/blog)
+
+```
+cd cms/templates/blog
+yarn strapi templates:generate ../../../Academy4U/strapi-blog
+
+npm publish --access public
+```

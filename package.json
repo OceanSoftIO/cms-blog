@@ -1,6 +1,6 @@
 {
   "name": "strapi-blog",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Template for creating blog apps, such as Education, Agency, Beauty, Medical, News, Personal, and Science using Strapi V4.",
   "repository": {
     "type": "git",
