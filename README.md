@@ -4,22 +4,35 @@
 
 🎯 Strapi-V4 Headless-CMS Template for creating Blog CMS Backend, such as Education, Agency, Beauty, Medical, News, Personal, and Science 🎁💲.
 
-🐳 https://academy.job4u.io/dockerizing-strapi-open-source-nodejs-headless-cms/
+🐳 https://blog.oceansoft.io/strapi-nodejs-headless-cms/
 
 
 ## ✨ Usage
 
-### Step 1: Install Strapi Backend
+### Step 1: [Backend] Install Strapi Backend
 
 ```
+echo "Strapi V4 template: https://github.com/OceanSoftIO/cms-blog/tree/main/template"
 yarn create strapi-app backend --quickstart --template strapi-blog
 
-# yarn create strapi-app backend --template strapi-blog
+echo "Strapi V3 OLD-version !!!"
+# yarn create strapi-app backend --quickstart --template https://github.com/OceanSoftIO/cms-blog
 ```
 
 * ✅ When the installation is complete, Strapi's administration panel will open in your browser, and you can register a user and get started creating content.
 
-### Step 2: Installing Gatsby plugins & Enter Access Credentials
+
+## Step 2. [Backend] Powerful CMS-Backend REST & GraphQL APIs
+
+```
+cd backend
+
+yarn install
+yarn develop
+```
+
+
+### Step 3: [Frontend] Installing Gatsby plugins & Enter Access Credentials
 
 * ✅ After installing Strapi, you need to install the Gatsby plugin.
 
@@ -46,7 +59,7 @@ yarn create strapi-app backend --quickstart --template strapi-blog
   STRAPI_TOKEN=Your_Strapi_API_Token
   ```
 
-### Step 3: Register Strapi CMS plugin
+### Step 4: Register Strapi CMS plugin
 
 > `frontend/gatsby-config.js`
 
@@ -78,7 +91,7 @@ module.exports = {
 }
 ```
 
-### Step 4. 
+### Step 5. Gatsby
 
 * Every time you modify `gatsby-config.js` file, you need to clean the cache:
 
@@ -96,14 +109,3 @@ If you’re planning to deploy your site to AWS, Netlify or Vercel, you can auto
 * [Triggering a deploy in Netlify automatically after updating content in Strapi](https://chriswray.dev/posts/triggering-a-deploy-in-netlify-automatically-after-updating-content-in-strapi)
 
 > [🎁 Installation Service 💲](https://github.com/OceanSoftIO/cms/tree/main/templates/blog)
-
-```
-git clone https://github.com/Academy4U/strapi-blog
-cd strapi-blog
-npm publish --access public
-
-echo "Generating the strapi-blog template ..."
-cd cms/templates/blog
-yarn install
-yarn strapi templates:generate ../../../../Academy4U/strapi-blog
-```

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_arrays",
+  "info": {
+    "name": "Array",
+    "icon": "hashtag",
+    "displayName": "Array",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
