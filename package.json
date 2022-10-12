@@ -1,10 +1,10 @@
 {
   "name": "strapi-blog",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "Template for creating blog apps, such as Education, Agency, Beauty, Medical, News, Personal, and Science using Strapi V4.",
   "repository": {
     "type": "git",
-    "url": "git+https://nnthanh101@github.com/Academy4U/strapi-blog.git"
+    "url": "git+https://nnthanh101@github.com/OceanSoftIO/cms-blog.git"
   },
   "keywords": [
     "cms",
@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Academy4U/strapi-blog/issues"
+    "url": "https://github.com/OceanSoftIO/cms-blog/issues"
   },
-  "homepage": "https://github.com/Academy4U/strapi-blog#readme"
+  "homepage": "https://github.com/OceanSoftIO/cms-blog#readme"
 }

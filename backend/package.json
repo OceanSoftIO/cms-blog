@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "mime-types": "^2.1.35",
+    "lodash.set": "^4.3.2",
+    "@strapi/strapi": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/plugin-i18n": "4.4.3",
+    "better-sqlite3": "7.4.6"
+  },
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi CMS Backend",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "nnthanh101@gmail.com"
+  },
+  "strapi": {
+    "uuid": "dc52f269-2f97-4834-aa73-81c10d4120aa",
+    "template": "strapi-blog"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
